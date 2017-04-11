@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlLicense xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.grantadesign.com/license/2016/v2/license.xsd">
+  <Product Name="CES EduPack 2017" Version="2.0">
+    <Editions>
+      <Edition Name="CES EduPack 2017 - Aerospace Edition">
+        <MsiPackages>
+          <MsiPackage Name="EduPack" />
+          <MsiPackage Name="L1ElementsDatabase" />
+          <MsiPackage Name="L1GermanDatabase" />
+          <MsiPackage Name="L1EnglishDatabase" />
+          <MsiPackage Name="L1SpanishDatabase" />
+          <MsiPackage Name="L1FrenchDatabase" />
+          <MsiPackage Name="L2GermanDatabase" />
+          <MsiPackage Name="L2EnglishDatabase" />
+          <MsiPackage Name="L2SpanishDatabase" />
+          <MsiPackage Name="L2FrenchDatabase" />
+          <MsiPackage Name="L3AeroDatabase" />
+        </MsiPackages>
+        <License>
+          <Key>fm2rupdx2d9bz3nb</Key>
+          <IsPerpetual>false</IsPerpetual>
+          <ExpiryDate>2030-03-30T00:00:00</ExpiryDate>
+          <OrganizationName>TEST DOWNLOAD (CES EduPack)</OrganizationName>
+        </License>
+      </Edition>
+    </Editions>
+  </Product>
+</XmlLicense>
