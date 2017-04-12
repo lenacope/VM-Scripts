@@ -21,7 +21,7 @@ Stop-VM -ComputerName BB-8.grantadesign.local -VMName "CES Win10 Auto"
 #psexec troubleshooutng
 #psexec -i \\127.0.0.1 C:\Windows\notepad.exe >C:\buffer.dat 2\&1
 #C:\pstools\psexec \\ces-win10-Auto -i -s C:\Windows\notepad.exe >C:\buffer.dat 2\&1
-C:\pstools\psexec \\ces-win10-Auto -i -s PowerShell C:\Scripts\InstallrunCES.ps1 >output.txt 2>&1 # resolved vertion that writes an output to a file in C:\windows\system32
+#C:\pstools\psexec \\ces-win10-Auto -i -s PowerShell C:\Scripts\InstallrunCES.ps1 >output.txt 2>&1 # resolved vertion that writes an output to a file in C:\windows\system32
 
 #works
 #copy-item -Path “\\teamcity\artifacts\CesNext_Installation\Full Installer (EduPack)\899152\Installation\Files” -Destination \\CES-WIN10-AUTO\Deployment -Recurse -Force
