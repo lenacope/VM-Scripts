@@ -6,10 +6,11 @@ Start-Sleep -s 120
 # TC will later copy this from the build it is running
 copy-item -Path “\\teamcity\artifacts\CesNext_Installation_Deployment\6. Burn installer\973999\master\Installation\Files” -Destination \\CES-WIN10-AUTO\Deployment -Recurse -Force
 #these files will be checked out of source control
-copy-item -Path C:\PS\licence.xml -Destination \\CES-WIN10-AUTO\Deployment\Files -Recurse -Force
-copy-item -Path C:\PS\InstallRunCES.ps1 -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
-copy-item -Path C:\PS\reportprocess.ps1 -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
-copy-item -Path C:\PS\OpenCES.ces -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
+copy-item -Path \licence.xml -Destination \\CES-WIN10-AUTO\Deployment\Files -Recurse -Force
+copy-item -Path \licence.xml -Destination \\CES-WIN10-AUTO\Deployment\Files -Recurse -Force
+copy-item -Path \InstallRunCES.ps1 -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
+copy-item -Path \reportprocess.ps1 -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
+copy-item -Path \OpenCES.ces -Destination \\CES-WIN10-AUTO\Scripts -Recurse -Force
 C:\pstools\psexec \\ces-win10-Auto -i -s PowerShell C:\Scripts\InstallRunCES.ps1
 #Installs, Runs CES, copies results back to build agent 
 
